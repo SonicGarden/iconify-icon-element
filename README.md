@@ -1,21 +1,21 @@
-# &lt;custom-element&gt; element
+# &lt;iconify-icon&gt; element
 
-Boilerplate for creating a custom element.
+Iconify custom element.
 
 ## Installation
 
 ```
-$ npm install @github/custom-element-element
+$ yarn add @iconify/iconify @sonicgarden/iconify-icon-element
 ```
 
 ## Usage
 
 ```js
-import '@github/custom-element-element'
+import '@sonicgarden/iconify-icon-element'
 ```
 
 ```html
-<custom-element></custom-element>
+<iconify-icon icon="twemoji:thumbs-up" inline></iconify-icon>
 ```
 
 ## Browser support
@@ -33,8 +33,7 @@ Browsers without native [custom element support][support] require a [polyfill][]
 ## Development
 
 ```
-npm install
-npm test
+yarn install
 ```
 
 ## License
